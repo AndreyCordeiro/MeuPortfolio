@@ -1,0 +1,44 @@
+/* Rodapé */
+footer{
+    position: center;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #23232e;
+    height: auto;
+    width: 100%;
+    font-family: sans-serif;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    line-height: 3rem;
+}
+  
+.emailcontact {
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-bottom: 0.5rem;
+}
+  
+.mycopyright {
+    margin-bottom: 1rem;
+    font-size: 18px;
+    color: white;
+    text-shadow: 2px 2px 16px rgb(255, 255, 255);
+    text-align: center;
+}

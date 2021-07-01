@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  main {
+    background: url("/img/bg.jpg") no-repeat top center;
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    height: 93vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+li {
+  list-style: none;
+}
+
+/* Titulo Perfil */
+.tittle {
+  font-size: 35px;
+  font-weight: normal;
+  text-align: center;
+  margin: 1rem;
+}
+
+/* Titulo Conteudo */
+.tittle2 {
+  color: #616161;
+  font-size: 35px;
+  text-align: center;
+}
+
+.box {
+  background: #eee;
+  padding: 3rem;
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 50px;
+  text-align: center;
+}
+
+/* Foto de perfil */
+.profile {
+  border-radius: 50%;
+  margin: 0 auto 2rem auto;
+  width: 250px;
+}
+
+.redes-sociais li {
+  margin-right: 1.5rem;
+}
+
+.estado {
+  text-align: center;
+  margin: 10px;
+}
+.campus {
+  text-align: center;
+  margin: 25px;
+}
+
+.main {
+  background-color: #111;
+  padding: 10rem 0;
+}
+
+.portifolio li {
+  display: grid;
+  max-width: 500px;
+  max-height: 500px;
+  text-align: justify;
+}
+
+.description {
+  margin-top: 1.5rem;
+}
+
+/* Borda responsiva na box*/
+.container__media {
+  padding: 0 18px;
+  background: transparent;
+  margin-top: 1.5rem;
+  margin-bottom: 2rem;
+}
