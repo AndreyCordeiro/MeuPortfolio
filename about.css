@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100; 200;300;400;500;600;700;800;900&display=swap');
+
+.about {
+    padding: 100px 0 ;
+    font-family: sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+.max-width {
+    max-width: 1300px;
+    padding: 0 45px;
+    margin: auto;
+}
+
+.max-width h1 {
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+}
+
+.max-width h1::after {
+    content: "";
+    position: absolute;
+    width: 170px;
+    height: 3px;
+    background: #fff;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    padding: 50px 25px;
+    width: calc(26% - 20px);
+    border-radius: 6px;
+    background: #222;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    background-color: #eeeeee;
+}
+
+.box2 {
+    transition: all 0.3s ease;
+}
+
+.card:hover .box2 {
+    transform: scale(1.07);
+}
+
+.box2 i {
+    font-size: 50px;
+    color: #fff;
+    transition: color 0.3s ease;
+}
+
+.card:hover .box2 i {
+    color: #000000;
+}
+
+.box2 h3 {
+    font-size: 25px;
+    padding: 10px 0 7px;
+}
+
+.box2:hover {
+    color: #000000;
+}
+
+@media screen and (max-width: 1190px) {
+    .max-width {
+        padding: 0 25px;
+    }
+
+    .card {
+        width: calc(50% -10px);
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1190px) {
+    .card {
+        width: 100%
+    }
+}
