@@ -10,7 +10,7 @@
     z-index: 999;
   }
   
-  .navbar__container {
+.navbar__container {
     display: flex;
     justify-content: space-between;
     height: 70px;
@@ -21,7 +21,7 @@
     padding: 0 50px;
   }
   
-  #navbar__logo {
+#navbar__logo {
     background-color: #23232e;
     color: #fff;
     text-transform: uppercase;
@@ -33,17 +33,17 @@
     font-size: 2rem;
   }
   
-  .navbar__menu {
+.navbar__menu {
     display: flex;
     align-items: center;
     list-style: none;
   }
   
-  .navbar__item {
+.navbar__item {
     height: 80px;
   }
   
-  .navbar__links {
+.navbar__links {
     color: #fff;
     display: flex;
     align-items: center;
@@ -54,12 +54,12 @@
     transition: all 0.3s ease;
   }
   
-  .navbar__links:hover {
+.navbar__links:hover {
     color: #888888;
     transition: all 0.3s ease;
   }
 
-  #navbar__logo:hover {
+#navbar__logo:hover {
       color: #888888;
       transition: all 0.3s ease-in;
   }

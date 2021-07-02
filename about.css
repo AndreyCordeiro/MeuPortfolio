@@ -68,7 +68,7 @@
     transition: color 0.3s ease;
 }
 
-.card:hover .box2 i {
+.card:hover .box2 i{
     color: #000000;
 }
 

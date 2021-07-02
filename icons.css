@@ -57,7 +57,7 @@
     margin: 10px;
     border-radius: 30%;
     box-shadow: 0 5px 15px -5px #00000070;
-    color: #d62e79;
+    color: #fd1d1d;
     overflow: hidden;
     position: relative;
   }
@@ -75,7 +75,9 @@
     position: absolute;
     width: 120%;
     height: 120%;
-    background: #d62e79;
+    background:  #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
     transform: rotate(45deg);
     left: -110%;
     top: 90%;
