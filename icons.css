@@ -75,9 +75,10 @@
     position: absolute;
     width: 120%;
     height: 120%;
-    background:  #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
+    background: #833ab4;
+    background: -webkit-linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+    background: linear-gradient(to bottom, #fcb045, #fd1d1d, #833ab4);
+    
     transform: rotate(45deg);
     left: -110%;
     top: 90%;
