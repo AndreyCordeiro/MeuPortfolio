@@ -13,7 +13,7 @@
     margin: auto;
 }
 
-.max-width h1 {
+.sobre_mim {
     text-align: center;
     position: relative;
     font-size: 40px;
@@ -22,7 +22,7 @@
     padding-bottom: 20px;
 }
 
-.max-width h1::after {
+.sobre_mim:after {
     content: "";
     position: absolute;
     width: 170px;
@@ -72,6 +72,14 @@
     color: #000000;
 }
 
+.card:hover .box2 h3{
+    color: #000000;
+}
+
+.card:hover .box2 {
+    color: #000000;
+}
+
 .box2 h3 {
     font-size: 25px;
     padding: 10px 0 7px;
@@ -79,6 +87,42 @@
 
 .box2:hover {
     color: #000000;
+}
+
+.pipehub {
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+}
+
+.pipehub__information:hover {
+    color: #00e49b;
+    transition: all 0.3s ease;
+}
+
+.pipehub__information {
+    color: #fff;
+    text-decoration: none;
+}
+
+.pipehub__content {
+    text-align: justify;
+    display: flex;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.viasoft {
+    color: #fff;
+}
+
+.viasoft:hover {
+    color: #ed1b24;
+    transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 1190px) {

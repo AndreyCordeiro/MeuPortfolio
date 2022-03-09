@@ -34,10 +34,8 @@ li {
 }
 
 .box {
-  /* background: #eee; */
-  padding: 3rem;
+  padding: 2.5rem;
   box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
-  border-radius: 50px;
   text-align: center;
   background: rgba(255, 255, 255, 0.05);
   margin: 20px;
@@ -49,19 +47,50 @@ li {
 /* Foto de perfil */
 .profile {
   border-radius: 50%;
-  margin: 0 auto 2rem auto;
+  margin: 0 auto 1rem auto;
   width: 250px;
 }
 
 .estado {
   text-align: center;
-  margin: 10px;
+  margin: 13px;
   color: #eee;
 }
+
+.estado i {
+  margin: 10px;
+  color: #eee;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
 .campus {
   text-align: center;
-  margin: 25px;
+  margin: 13px;
   color: #eee;
+}
+
+.campus i {
+  margin: 10px;
+  color: #eee;
+  position: relative;
+  top: 5px;
+  left: 5px;
+}
+
+.empresa {
+  text-align: center;
+  margin: 13px;
+  color: #eee;
+}
+
+.empresa i {
+  margin: 10px;
+  color: #eee;
+  position: relative;
+  top: 5px;
+  left: 5px;
 }
 
 .main {

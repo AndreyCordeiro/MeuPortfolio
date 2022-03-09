@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="about.css">
     <link rel="stylesheet" href="footer.css">
     <link rel="stylesheet" href="icons.css">
-    <link rel="icon" href="img/wallet-fill.svg">
+    <link rel="icon" href="img/badge_black_24dp.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Meu Portfólio</title>
@@ -41,43 +41,53 @@
           <div class="box">
               <img class="profile" src="img/profile.jpg" alt="Profile">
               <h1 class="tittle">Andrey Silva Cordeiro</h1>
-              <p class="estado">Paraná, Brasil</p>
-              <p class="campus">Eng. Software | IFPR - Campus Paranavaí</p>
+              <p class="estado"><i class="material-icons">home</i>Paraná, Brasil</p>
+              <p class="campus"><i class="material-icons">school</i>Eng. Software | IFPR - Campus Paranavaí</p>
+              <p class="empresa"><i class="material-icons">business</i>NextAge</a></p>
           </div>
         </div>
       </main>
       <div class="about" id="about">
         <div class="max-width">
-          <h1>Sobre Mim</h1>
+          <h1 class="sobre_mim">Sobre Mim</h1>
           <div class="content">
             <div class="card">
               <div class="box2">
-                <i class="material-icons">terminal</i>
+                <i class="material-icons">business</i>
                 <h3>Nextage</h3>
                 <p>Atuando como Desenvolvedor Java e trabalhando na squad Pipehub, a qual realizamos integração de ecommerce's e marketplaces.</p>
               </div>
             </div>
             <div class="card">
               <div class="box2">
-                <i class="fab fa-microsoft"></i>
-                <h3>Dynamics 365 CRM</h3>
-                <p>1 Ano de atuação Microsoft Dynamics 365 (CRM) em uma Sociedade Individual de Advocacia como estagiário pelo CIEE/PR na cidade de Paranavaí.</p>
+                <i class="material-icons">code_off</i>
+                <h3>Tecnologias</h3>
+                <p>Java 11, Python, MySQL, Node.js, Oracle DB, HTML 5, CSS 3</p>
               </div>
             </div>
             <div class="card">
               <div class="box2">
-                <i class="material-icons">code</i>
-                <h3>Linguagens já utilizadas</h3>
-                <p>Java, Python, MySQL<br>C, C#</br>HTML 5, CSS 3</p>
+                <i class="material-icons">school</i>
+                <h3>Formação</h3>
+                <p>Cursando o 3º ano de Bacharelado em Engenharia de Software pelo Instituto Federal do Paraná - IFPR Campus Paranavaí.</p>
               </div>
             </div>
-            <div class="card">
-              <div class="box2">
-                <i class="material-icons">person</i>
-                <h3>Pessoal</h3>
-                <p>Cursando o 2º ano do curso de Bacharelado em Engenharia de Software no Instituto Federal do Paraná - IFPR. Atualmente trabalhando como cesenvolvedor Java na empresa Nextage.</p>
-              </div>
-            </div>
+          </div>
+          <div class="main_text">
+            <h1 class="pipehub"><a class="pipehub__information" href="https://pipehub.com.br" target="_blank">Pipehub</a></h1>
+            <p class="pipehub__content">Pipehub é um integrador de ecommerce's e marketplaces desenvolvido pela NextAge, que faz o intermédio entre o Construshow (ERP) e a loja virtual do cliente.
+              Sendo assim o cliente centraliza todas as informações em um só lugar podendo fazer vendas online ou na sua loja física sem se preocupar em dar baixa
+              nos produtos do ecommerce ou importar pedidos manualmente.
+            </p>
+            <br>
+            <h4>Tecnologias utilizadas:</h4>
+            <p>Java 11, Spring Boot, Google PubSub, JPA, MySQL, Kubernetes, Lombok, Node.js e Angular.</p>
+            <br>
+            <h4>Parceiro:</h4>
+            <p><a href="https://viasoft.com.br" class="viasoft" target="_blank">VIASOFT</a>, sendo a grande responsável pelo desenvolvimento e gerenciamento do ERP.</p>
+            <br>
+            <h4>Ecommerce's integrados:</h4>
+            <p>Vtex, Tray, Moovin, Magento, MKX, Climba, Flexy entre outros.</p>
           </div>
         </div>
       </div>
@@ -98,10 +108,12 @@
                 <i class="fab fa-github"></i>
               </a>
             </div>
-            <div class="emailcontact">andreybr2002@hotmail.com</div>
+            <button class="send-message" onclick="sendMessage()">Fale comigo via WhatsApp</button>
+            <button class="send-email" onclick="mailTo()">Fale comigo via e-mail</button>
             <div class="mycopyright">© 2022 Andrey Cordeiro</div>
         </div>
       </footer>
     <script src="responsivemenu.js"></script>
+    <script src="sendmessage.js"></script>
 </body>
 </html>
