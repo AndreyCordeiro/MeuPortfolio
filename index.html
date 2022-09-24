@@ -4,116 +4,149 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="navbar.css">
-    <link rel="stylesheet" href="scrollbar.css">
-    <link rel="stylesheet" href="about.css">
-    <link rel="stylesheet" href="footer.css">
-    <link rel="stylesheet" href="icons.css">
-    <link rel="icon" href="img/badge_black_24dp.svg">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/navbar.css">
+    <link rel="stylesheet" href="estilos/scrollbar.css">
+    <link rel="stylesheet" href="estilos/about.css">
+    <link rel="stylesheet" href="estilos/footer.css">
+    <link rel="stylesheet" href="estilos/icons.css">
+    <link rel="icon" href="imagens/badge_black_24dp.svg">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Meu Portfólio</title>
 </head>
 <body id="home">
-    <nav class="navbar">
-        <div class="navbar__container">
-          <a href="#home" id="navbar__logo">Meu Portfólio</a>
-          <div class="navbar__toggle" id="mobile-menu">
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="#home" id="navbar__logo">Meu Portfólio</a>
+        <div class="navbar__toggle" id="mobile-menu">
             <span class="bar"></span> <span class="bar"></span>
             <span class="bar"></span>
-          </div>
-          <ul class="navbar__menu">
-            <li class="navbar__item">
-              <a href="#home" class="navbar__links">Início</a>
-            </li>
-            <li class="navbar__item">
-              <a href="#about" class="navbar__links">Sobre</a>
-            </li>
-            <li class="navbar__item">
-              <a href="#contact" class="navbar__links">Contato</a>
-            </li>
-          </ul>
         </div>
-    </nav>
-    <main>
-        <div class="container__media">
-          <div class="box">
-              <img class="profile" src="img/profile.jpg" alt="Profile">
-              <h1 class="tittle">Andrey Silva Cordeiro</h1>
-              <p class="estado"><i class="material-icons">home</i>Paraná, Brasil</p>
-              <p class="campus"><i class="material-icons">school</i>Eng. Software | IFPR - Campus Paranavaí</p>
-              <p class="empresa"><i class="material-icons">business</i>NextAge</a></p>
-          </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="#home" class="navbar__links">Início</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#about" class="navbar__links">Sobre</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#contact" class="navbar__links">Contato</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<main>
+    <div class="container__media">
+        <div class="box">
+            <img class="profile" src="imagens/profile.jpg" alt="Profile">
+            <h1 class="tittle">Andrey Silva Cordeiro</h1>
+            <p class="estado"><i class="material-icons">home</i>Paranavaí - PR, Brasil</p>
+            <p class="campus"><i class="material-icons">school</i>Eng. Software | IFPR - Campus Paranavaí</p>
+            <p class="empresa"><i class="material-icons">business</i>Nextage</a></p>
         </div>
-      </main>
-      <div class="about" id="about">
-        <div class="max-width">
-          <h1 class="sobre_mim">Sobre Mim</h1>
-          <div class="content">
+    </div>
+</main>
+<div class="about" id="about">
+    <div class="max-width">
+        <h1 class="sobre_mim">Sobre Mim</h1>
+        <div class="content">
             <div class="card">
-              <div class="box2">
-                <i class="material-icons">business</i>
-                <h3>NextAge</h3>
-                <p>Atuando como Desenvolvedor Java e trabalhando na squad Pipehub, a qual realizamos integração com ecommerce's.</p>
-              </div>
+                <div class="box2">
+                    <i class="material-icons">business</i>
+                    <h3>Nextage</h3>
+                    <p>Atuando como Desenvolvedor Fullstack e trabalhando com a SoftFocus na squad CresolCredi. Sistema
+                        utilizado pelas Cooperativas da Cresol.</p>
+                </div>
             </div>
             <div class="card">
-              <div class="box2">
-                <i class="material-icons">code</i>
-                <h3>Tecnologias</h3>
-                <p>Java 11, Spring Boot, Node.js, Google PubSub, Lombok, MySQL, Oracle DB, HTML 5 e CSS 3</p>
-              </div>
+                <div class="box2">
+                    <i class="material-icons">code</i>
+                    <h3>Tecnologias</h3>
+                    <p>Java 8 e 11, Spring Boot, Mensagerias (Google PubSub e RabbitMQ), Microserviços, Teste Unitário,
+                        MySQL, Oracle DB e Node.js</p>
+                </div>
             </div>
             <div class="card">
-              <div class="box2">
-                <i class="material-icons">school</i>
-                <h3>Formação</h3>
-                <p>Cursando o 3º ano de Bacharelado em Engenharia de Software pelo Instituto Federal do Paraná - IFPR Campus Paranavaí.</p>
-              </div>
+                <div class="box2">
+                    <i class="material-icons">school</i>
+                    <h3>Formação</h3>
+                    <p>Cursando o 3º ano de Bacharelado em Engenharia de Software pelo Instituto Federal do Paraná -
+                        IFPR Campus Paranavaí.</p>
+                </div>
             </div>
-          </div>
-          <div class="main_text">
-            <h1 class="pipehub"><a class="pipehub__information" href="https://pipehub.com.br" target="_blank">Pipehub</a></h1>
-            <p class="pipehub__content">Pipehub é um integrador de ecommerce's e marketplaces desenvolvido pela NextAge, que faz o intermédio entre o Construshow (ERP) e a loja virtual do cliente.
-              Sendo assim o cliente centraliza todas as informações em um só lugar podendo fazer vendas online ou na sua loja física sem se preocupar em dar baixa
-              nos produtos do ecommerce ou importar pedidos manualmente.
+        </div>
+        <div class="main_text">
+            <h1 class="cresol_credi"><a class="cresol_credi__information" href="https://cresolcredi.com.br/"
+                                        target="_blank">CresolCredi</a></h1>
+            <p class="cresol_credi__content">Sistema de crédito rural utilizado pelas Cooperativas da
+                Cresol. Trabalhando com a equipe da SoftFocus onde realizamos o desenvolvimento de novas
+                funcionalidades, manutenção e migração do sistema.
             </p>
             <br>
             <h4>Tecnologias utilizadas:</h4>
-            <p>Java 11, Spring Boot, Google PubSub, JPA, MySQL, Kubernetes, Lombok, Node.js e Angular.</p>
+            <p>Java 8, Kotlin, Spring Boot, JUnit, Mockito, JPA, Hibernate, Lombok, PostgreSQL e Microserviços.</p>
             <br>
-            <h4>Parceiro:</h4>
-            <p><a href="https://viasoft.com.br" class="viasoft" target="_blank">VIASOFT</a>, sendo a grande responsável pelo desenvolvimento e gerenciamento do ERP.</p>
+            <br>
+        </div>
+        <div class="main_text">
+            <h1 class="meu_localizador"><a class="meu__localizador__information">Meu
+                Localizador</a></h1>
+            <p class="meu_localizador__content">O Meu Localizador é um sistema para a localização e apreensão de bens. O
+                sistema
+                conta com um aplicativo Mobile para que o Localizador possa encontrar determinado
+                veículo e realizar a apreensão do mesmo. O sistema Web possibilita advocacias gerenciarem todo o fluxo
+                do sistema.
+            </p>
+            <br>
+            <h4>Tecnologias utilizadas:</h4>
+            <p>Java 11, Spring Boot, JPA, Hibernate, MySQL, Lombok, Flutter, Angular 14 e Microserviços.</p>
+            <br>
+            <br>
+        </div>
+        <div class="main_text">
+            <h1 class="pipehub"><a class="pipehub__information" href="https://pipehub.com.br"
+                                   target="_blank">Pipehub</a></h1>
+            <p class="pipehub__content">Pipehub é um integrador de ecommerce's e marketplaces desenvolvido pela NextAge
+                e VIASOFT, que faz o intermédio entre o Construshow (ERP) e a loja virtual do cliente.
+                Sendo assim o cliente centraliza todas as informações em um só lugar podendo fazer vendas online ou na
+                sua loja física sem se preocupar em dar baixa
+                nos produtos do ecommerce ou importar pedidos manualmente.
+            </p>
+            <br>
+            <h4>Tecnologias utilizadas:</h4>
+            <p>Java 11, Spring Boot, Google PubSub, RabbitMQ, JPA, Hibernate, Oracle DB, MySQL, Kubernetes, Lombok,
+                Node.js e Angular 5.</p>
+            <br>
             <br>
             <h4>Ecommerce's integrados:</h4>
             <p>Vtex, Tray, Moovin, Magento, MKX, Climba, Flexy, Area Central, Cws entre outros.</p>
-          </div>
         </div>
-      </div>
-    <footer>
-        <div class="footer-content" id="contact">
-            <h3>Contato | Redes Sociais</h3>
-            <div class="socials">
-              <a class="facebook" href="https://www.facebook.com/andrey.cordeiro.5" target="_blank">
+    </div>
+</div>
+<footer>
+    <div class="footer-content" id="contact">
+        <h3>Contato | Redes Sociais</h3>
+        <div class="socials">
+            <a class="facebook" href="https://www.facebook.com/andrey.cordeiro.5" target="_blank">
                 <i class="fab fa-facebook-f"></i>
-              </a>
-              <a class="instagram" href="https://www.instagram.com/andrey_cordeiro2/" target="_blank">
+            </a>
+            <a class="instagram" href="https://www.instagram.com/andrey_cordeiro2/" target="_blank">
                 <i class="fab fa-instagram"></i>
-              </a>
-              <a class="linkedin" href="https://www.linkedin.com/in/andrey-silva-cordeiro-917654214/" target="_blank">
+            </a>
+            <a class="linkedin" href="https://www.linkedin.com/in/andrey-silva-cordeiro-917654214/" target="_blank">
                 <i class="fab fa-linkedin-in"></i>
-              </a>
-              <a class="github" href="https://github.com/AndreyCordeiro" target="_blank">
+            </a>
+            <a class="github" href="https://github.com/AndreyCordeiro" target="_blank">
                 <i class="fab fa-github"></i>
-              </a>
-            </div>
-            <button class="send-message" onclick="sendMessage()">Fale comigo via WhatsApp</button>
-            <button class="send-email" onclick="mailTo()">Fale comigo via e-mail</button>
-            <div class="mycopyright">© 2022 Andrey Cordeiro</div>
+            </a>
         </div>
-      </footer>
-    <script src="responsivemenu.js"></script>
-    <script src="sendmessage.js"></script>
+        <button class="send-message" onclick="sendMessage()">Fale comigo via WhatsApp</button>
+        <button class="send-email" onclick="mailTo()">Fale comigo via e-mail</button>
+        <div class="mycopyright">© 2022 Andrey Cordeiro</div>
+    </div>
+</footer>
+<script src="funcoes/responsivemenu.js"></script>
+<script src="funcoes/sendmessage.js"></script>
 </body>
 </html>

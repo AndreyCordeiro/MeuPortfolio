@@ -1,9 +1,9 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100; 200;300;400;500;600;700;800;900&display=swap'); */
 
 .about {
-    padding: 100px 0 ;
+    padding: 100px 0;
     font-family: sans-serif;
-    background-color: #111;
+    background-color: #0D1117;
     color: #fff;
 }
 
@@ -68,11 +68,11 @@
     transition: color 0.3s ease;
 }
 
-.card:hover .box2 i{
+.card:hover .box2 i {
     color: #000000;
 }
 
-.card:hover .box2 h3{
+.card:hover .box2 h3 {
     color: #000000;
 }
 
@@ -116,13 +116,58 @@
     text-align: justify;
 }
 
-.viasoft {
-    color: #fff;
+.meu_localizador {
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
 }
 
-.viasoft:hover {
-    color: #ed1b24;
+.meu__localizador__information:hover {
+    color: #2e8bf8;
     transition: all 0.3s ease;
+}
+
+.meu__localizador__information {
+    color: #fff;
+    text-decoration: none;
+}
+
+.meu_localizador__content {
+    text-align: justify;
+    display: flex;
+    font-family: sans-serif;
+    text-align: justify;
+}
+
+.cresol_credi {
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+}
+
+.cresol_credi__information:hover {
+    color: #EC6D27;
+    transition: all 0.3s ease;
+}
+
+.cresol_credi__information {
+    color: #fff;
+    text-decoration: none;
+}
+
+.cresol_credi__content {
+    text-align: justify;
+    display: flex;
+    font-family: sans-serif;
+    text-align: justify;
 }
 
 @media screen and (max-width: 1190px) {
@@ -131,7 +176,7 @@
     }
 
     .card {
-        width: calc(50% -10px);
+        width: calc(50% - 10px);
         margin-bottom: 20px;
     }
 }
