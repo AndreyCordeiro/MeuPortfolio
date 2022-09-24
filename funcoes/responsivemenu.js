@@ -12,11 +12,8 @@ menu.addEventListener('click', mobileMenu);
 
 //  Fechar o menu quando clicar em algum botão
 const hideMobileMenu = () => {
-    const menuBars = document.querySelector('.is-active');
-    if (window.innerWidth <= 768 && menuBars) {
-        menu.classList.toggle('is-active');
-        menuLinks.classList.remove('active');
-    }
+    menu.classList.toggle('is-active');
+    menuLinks.classList.remove('active');
 };
 
 menuLinks.addEventListener('click', hideMobileMenu);
