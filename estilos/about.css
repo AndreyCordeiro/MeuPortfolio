@@ -1,5 +1,3 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100; 200;300;400;500;600;700;800;900&display=swap'); */
-
 .about {
     padding: 100px 0;
     font-family: sans-serif;
@@ -43,7 +41,7 @@
     padding: 50px 25px;
     width: calc(26% - 20px);
     border-radius: 6px;
-    background: #222;
+    background: #161B22;
     text-align: center;
     user-select: none;
     cursor: pointer;
