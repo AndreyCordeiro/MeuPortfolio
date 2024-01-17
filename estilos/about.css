@@ -107,11 +107,11 @@
     text-decoration: none;
 }
 
-.pipehub__content {
+.paragraph__content {
+    color: #fff;
     text-align: justify;
     display: flex;
     font-family: sans-serif;
-    text-align: justify;
 }
 
 .meu_localizador {
@@ -134,13 +134,6 @@
     text-decoration: none;
 }
 
-.meu_localizador__content {
-    text-align: justify;
-    display: flex;
-    font-family: sans-serif;
-    text-align: justify;
-}
-
 .cresol_credi {
     margin-top: 2rem;
     text-align: center;
@@ -161,11 +154,14 @@
     text-decoration: none;
 }
 
-.cresol_credi__content {
-    text-align: justify;
-    display: flex;
-    font-family: sans-serif;
-    text-align: justify;
+.tcc__information:hover {
+    color: #11c770;
+    transition: all 0.3s ease;
+}
+
+.tcc__information {
+    color: #fff;
+    text-decoration: none;
 }
 
 @media screen and (max-width: 1190px) {

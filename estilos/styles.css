@@ -4,10 +4,10 @@
     padding: 0;
     font-family: sans-serif;
     scroll-behavior: smooth;
-  }
+}
 
 main {
-    background: url("../imagens/background.jpg") no-repeat top center;
+    background: url("../imagens/cup_of_coffee.jpg") no-repeat top center;
     background-size: cover;
     display: grid;
     align-items: center;
@@ -16,96 +16,96 @@ main {
 }
 
 img {
-  display: block;
-  max-width: 100%;
+    display: block;
+    max-width: 100%;
 }
 
 li {
-  list-style: none;
+    list-style: none;
 }
 
 /* Titulo Perfil */
 .tittle {
-  font-size: 35px;
-  font-weight: normal;
-  text-align: center;
-  margin: 1rem;
-  color: #eee;
+    font-size: 35px;
+    font-weight: normal;
+    text-align: center;
+    margin: 1rem;
+    color: #eee;
 }
 
 .box {
-  padding: 2.5rem;
-  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
-  text-align: center;
-  background: rgba(255, 255, 255, 0.05);
-  margin: 20px;
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-  border-radius: 20px;
-  backdrop-filter: blur(5px);
+    padding: 2.5rem;
+    box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.16);
+    text-align: center;
+    background: rgba(255, 255, 255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(5px);
 }
 
 /* Foto de perfil */
 .profile {
-  border-radius: 50%;
-  margin: 0 auto 1rem auto;
-  width: 250px;
+    border-radius: 50%;
+    margin: 0 auto 1rem auto;
+    width: 250px;
 }
 
 .estado {
-  text-align: center;
-  margin: 13px;
-  color: #eee;
+    text-align: center;
+    margin: 13px;
+    color: #eee;
 }
 
 .estado i {
-  margin: 10px;
-  color: #eee;
-  position: relative;
-  top: 5px;
-  left: 5px;
+    margin: 10px;
+    color: #eee;
+    position: relative;
+    top: 5px;
+    left: 5px;
 }
 
 .campus {
-  text-align: center;
-  margin: 13px;
-  color: #eee;
+    text-align: center;
+    margin: 13px;
+    color: #eee;
 }
 
 .campus i {
-  margin: 10px;
-  color: #eee;
-  position: relative;
-  top: 5px;
-  left: 5px;
+    margin: 10px;
+    color: #eee;
+    position: relative;
+    top: 5px;
+    left: 5px;
 }
 
 .empresa {
-  text-align: center;
-  margin: 13px;
-  color: #eee;
+    text-align: center;
+    margin: 13px;
+    color: #eee;
 }
 
 .empresa i {
-  margin: 10px;
-  color: #eee;
-  position: relative;
-  top: 5px;
-  left: 5px;
+    margin: 10px;
+    color: #eee;
+    position: relative;
+    top: 5px;
+    left: 5px;
 }
 
 .main {
-  background-color: #111;
-  padding: 10rem 0;
+    background-color: #111;
+    padding: 10rem 0;
 }
 
 .description {
-  margin-top: 1.5rem;
+    margin-top: 1.5rem;
 }
 
 /* Borda responsiva na box*/
 .container__media {
-  padding: 0 18px;
-  background: transparent;
-  margin-top: 1.5rem;
-  margin-bottom: 2rem;
+    padding: 0 18px;
+    background: transparent;
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
 }

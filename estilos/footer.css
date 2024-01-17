@@ -1,5 +1,5 @@
 /* Rodapé */
-footer{
+footer {
     position: center;
     bottom: 0;
     left: 0;
@@ -11,21 +11,23 @@ footer{
     padding-top: 40px;
     color: #fff;
 }
-.footer-content{
+
+.footer-content {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     text-align: center;
 }
-.footer-content h3{
+
+.footer-content h3 {
     font-size: 24px;
     text-transform: uppercase;
     letter-spacing: 4px;
     font-weight: 400;
     line-height: 3rem;
 }
-  
+
 .emailcontact {
     font-size: 13px;
     text-transform: uppercase;
@@ -34,7 +36,7 @@ footer{
     line-height: 3rem;
     margin-bottom: 0.5rem;
 }
-  
+
 .mycopyright {
     margin-bottom: 1rem;
     font-size: 18px;
@@ -52,18 +54,18 @@ footer{
     cursor: pointer;
     color: #fff;
     margin-bottom: 0.5rem;
-   }
-   
+}
+
 .send-message:hover {
     border: 1px solid rgb(83, 207, 96);
     background-color: transparent;
     color: rgb(83, 207, 96);
-   }
-   
+}
+
 .send-message:focus {
     box-shadow: 0px 0px 0px 5px rgba(83, 207, 96, 0.37), 0px 0px 0px 10px rgba(83, 207, 96, 0.38);
     outline: none;
-   }
+}
 
 .send-email {
     background-color: #23232e;
@@ -74,15 +76,15 @@ footer{
     cursor: pointer;
     color: #fff;
     margin-bottom: 0.9rem;
-   }
-   
+}
+
 .send-email:hover {
     border: 1px solid rgb(3, 113, 197);
     background-color: transparent;
     color: rgb(3, 113, 197);
-   }
-   
+}
+
 .send-email:focus {
     box-shadow: 0px 0px 0px 5px rgba(3, 113, 197, 0.37), 0px 0px 0px 10px rgba(3, 113, 197, 0.38);
     outline: none;
-   }
+}
