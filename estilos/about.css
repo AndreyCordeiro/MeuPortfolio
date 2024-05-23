@@ -125,7 +125,7 @@
 }
 
 .meu__localizador__information:hover {
-    color: #2e8bf8;
+    color: #6F6EF8;
     transition: all 0.3s ease;
 }
 
@@ -150,6 +150,16 @@
 }
 
 .cresol_credi__information {
+    color: #fff;
+    text-decoration: none;
+}
+
+.engerisco__information:hover {
+    color: #FB923C;
+    transition: all 0.3s ease;
+}
+
+.engerisco__information {
     color: #fff;
     text-decoration: none;
 }
