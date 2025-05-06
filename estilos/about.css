@@ -34,7 +34,7 @@
 .content {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -160,6 +160,26 @@
 }
 
 .engerisco__information {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btg {
+    margin-top: 2rem;
+    text-align: center;
+    position: relative;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    padding-bottom: 20px;
+}
+
+.btg__information:hover {
+    color: #132F5E;
+    transition: all 0.3s ease;
+}
+
+.btg__information {
     color: #fff;
     text-decoration: none;
 }
